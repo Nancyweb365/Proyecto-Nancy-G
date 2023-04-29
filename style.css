@@ -1,0 +1,93 @@
+ /*fonts*/
+ @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Golos+Text&family=Inconsolata:wght@200;300;400;500;600&family=Josefin+Sans:ital,wght@0,100;1,100;1,300;1,400&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+body {
+    margin: auto;
+    width: 1024px; 
+    padding: 50px;
+    color: #33475b;   
+     
+        }
+
+  
+  img{
+    padding: 10px; 
+  }
+  header {
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-direction: row;
+    
+}
+.menu li a {
+     
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(2, 29, 53);
+}
+main {
+    width: 100%;
+    height: 1500px;
+    background-color: rgba(242, 244, 248, 0.5);
+    color: black;
+    top: 0%;
+    left: 0%;
+}
+
+.seccionUno {
+    background-color: rgba(250, 248, 249, 0.5);
+    font-family: "Segoe UI";
+    font-size: 15px;
+    margin-bottom: 100x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+.Secciondos {
+    background-color: rgba(219, 171, 201, 0.5);
+    font-family: "Segoe UI";
+    font-size: 15px;
+    margin-bottom: 100x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+
+.Secciontres {
+    background-color: rgba(218, 137, 193, 0.5);
+    font-family: "Segoe UI";
+    font-size: 15px;
+    margin-bottom: 100x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+footer {
+    background-color: rgba(121, 16, 88, 0.5);
+    font-family: "Segoe UI";
+    font-size: 15px;
+    margin-bottom: 100x;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
